@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+}
+nav {
+    background: green;
+    height: 30px;
+    width: 100%;
+    line-height: 30px;
+    font-family: 'Ubuntu', sans-serif;
+    padding-left: 20px;
+}
+nav:first-child {
+    float: left;
+    padding-left: 0px;
+    text-decoration: none;
+}
+
+.reload {
+    float: right;
+    color: blue;
+    text-decoration: none;
+}
+nav a:hover {
+    text-shadow: 1px 1px 3px red;
+    text-decoration: underline;
+}
+.chuck_body {
+    background: #123;
+}
+.chuck_text {
+    margin: auto;
+    width: 50%;
+    color:white;
+    font-family: 'VT323', cursive;
+    font-size: 40px;
+}
+
+.movie_body {
+    background: #444242;
+}
+
+#movie_search {
+    margin: auto;
+    width: 500px;
+    background: #084f3d;
+    text-align: center;
+}
+#search_box {
+    width: 300px;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: red;
+}
