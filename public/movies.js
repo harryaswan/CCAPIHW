@@ -33,7 +33,7 @@ var MovieSearch = function(resElement, disElement) {
                     var url = "i=" + imdb + "&tomatoes=true";
                     this.grabData(url, this.displayMovie);
                 }.bind(this);
-                var img = document.createElement('img')
+                var img = document.createElement('img');
                 img.setAttribute('src', movies[i].Poster);
                 img.setAttribute('height', '40px');
                 span.innerText = movies[i].Title;
@@ -87,6 +87,6 @@ var MovieSearch = function(resElement, disElement) {
             div.appendChild(p);
             this.displayElement.replaceChild(div, this.displayElement.firstChild);
         }
-    }.bind(this)
+    }.bind(this);
 
 }

@@ -52,3 +52,8 @@ nav a:hover {
     margin-bottom: 5px;
     color: red;
 }
+#map {
+    width:500px;
+    height:500px;
+    background: #823;
+}

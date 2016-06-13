@@ -13,6 +13,10 @@ app.get('/movies', function (req, res) {
   res.sendFile(path.join(__dirname + '/movies.html'));
 });
 
+app.get('/map', function (req, res) {
+  res.sendFile(path.join(__dirname + '/map.html'));
+});
+
 
 app.use(express.static('public'));
 
